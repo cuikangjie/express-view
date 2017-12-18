@@ -1,0 +1,25 @@
+{
+  "name": "mock-data",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "babel-node ./tools/run.js",
+    "build": "babel-node ./tools/build.js -- --release"
+  },
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "consolidate": "^0.15.0",
+    "express": "^4.16.2",
+    "jade": "^1.11.0",
+    "kin-toolkits": "^1.2.7",
+    "pug": "^2.0.0-rc.4",
+    "rimraf": "^2.6.2"
+  },
+  "devDependencies": {
+    "babel-loader": "^7.1.2",
+    "copy-webpack-plugin": "^4.3.0",
+    "webpack-node-externals": "^1.6.0"
+  }
+}
